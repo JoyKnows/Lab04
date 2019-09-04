@@ -1,7 +1,6 @@
 package lab04;
 
 import java.util.Scanner;
-
 public class Person {
     private String name;
     private int age;
@@ -46,9 +45,4 @@ public class Person {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        Person myself = new Person("Joy", 19, 'm');
-        System.out.println(myself);
-    }
-}
+
